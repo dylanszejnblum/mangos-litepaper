@@ -1,7 +1,8 @@
 {
   "index": "Introduction",
-  "get-started": "Get Started",
-  "features": "Features",
-  "themes": "Themes",
-  "advanced": "Advanced"
+  "the-problem": "🚨 The Problem",
+  "the-solution": "💡 The Solution",
+  "works": "⚙️ How it works",
+  "roadmap": "🗺️ Roadmap",
+  "team": "👥 Team"
 }

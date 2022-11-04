@@ -1,12 +1,10 @@
 export default {
-  github: 'https://github.com/shuding/nextra',
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
-  titleSuffix: ' – Nextra',
+  titleSuffix: ' – Mangos Wallet',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
+      <span className="mr-2 font-extrabold hidden md:inline">🥭 Mangos</span>
       <span className="text-gray-600 font-normal hidden md:inline">
-        The Next.js Static Site Generator
+        ERC-4337 Social Recovery Wallet
       </span>
     </>
   ),
@@ -16,15 +14,21 @@ export default {
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="Nextra: the Next.js site builder" />
-      <meta name="og:description" content="Nextra: the Next.js site builder" />
+      <meta name="description" content="Mangos: smart wallet" />
+      <meta name="og:description" content="Mangos: smart wallet" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="twitter:site:domain" content="nextra.vercel.app" />
-      <meta name="twitter:url" content="https://nextra.vercel.app" />
-      <meta name="og:title" content="Nextra: Next.js static site generator" />
-      <meta name="og:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="apple-mobile-web-app-title" content="Nextra" />
+      <meta name="twitter:site:domain" content="litepaper.mangos.finance" />
+      <meta name="twitter:url" content="https://mangos.finance" />
+      <meta
+        name="og:title"
+        content="Mangos is a smart wallet compatible with erc-4337"
+      />
+      <meta
+        name="og:image"
+        content="https://litepaper.mangos.finance/BANNER.png"
+      />
+      <meta name="apple-mobile-web-app-title" content="Mangos" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -61,7 +65,6 @@ export default {
   prevLinks: true,
   nextLinks: true,
   footer: true,
-  footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>,
-  unstable_faviconGlyph: '👋',
+  footerText: <> {new Date().getFullYear()} © Mangos Wallet.</>,
+  unstable_faviconGlyph: '🥭',
 }
