@@ -17,7 +17,10 @@ export default {
       <meta name="description" content="Mangos: smart wallet" />
       <meta name="og:description" content="Mangos: smart wallet" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
+      <meta
+        name="twitter:image"
+        content="https://litepaper.mangos.finance/BANNER.png"
+      />
       <meta name="twitter:site:domain" content="litepaper.mangos.finance" />
       <meta name="twitter:url" content="https://mangos.finance" />
       <meta
