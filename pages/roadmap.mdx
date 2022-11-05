@@ -1,3 +1,60 @@
 # Roadmap
 
-Add roadmap here
+import { Chrono } from 'react-chrono'
+
+<div>
+  <Chrono
+    items={[
+      {
+        title: '2022 Q4',
+        cardTitle: 'Beta Release of Mangos Wallet contracts and front-end',
+        cardSubtitle:
+          'Release of wallet contracts implementing ERC-4337 in a web front end to test basic usage (token transfers and basic operations) .',
+      },
+      {
+        title: '2023 Q1',
+        cardTitle: 'Implementation of social recovery ',
+        cardSubtitle: `Implementing social recovery to allow users to recover their funds in case their account get's compermised.`,
+
+      },
+      {
+        title: '2023 Q1',
+        cardTitle: 'dApp connectos with major protocols',
+        cardSubtitle: `Direct connection with major protocols like Uniswap, Aave, Compound, tokensets.`,
+
+      },
+       {
+        title: '2023 Q2',
+        cardTitle: 'deploy on other EVM chains',
+        cardSubtitle: `Deployment to other chains like Polygon, BSC, Optimism, etc.`,
+
+      },
+      {
+         title: '2023 Q2',
+        cardTitle: 'Mobile App Release',
+        cardSubtitle: `Mobile app release for Android and iOS.`,
+
+      },
+       {
+         title: '2023 Q3',
+        cardTitle: 'Wallet SDK',
+        cardSubtitle: `SDK to implement account abstraction and social recoveries onto other wallets on the ecosystem.`,
+
+      },
+
+
+
+    ]}
+    mode="VERTICAL"
+    theme={{
+      primary: 'orange',
+      secondary: 'orange',
+      cardBgColor: 'white',
+      cardForeColor: 'black',
+      titleColor: 'black',
+      titleColorActive: 'white',
+    }}
+
+/>
+
+</div>
